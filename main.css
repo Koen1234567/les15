@@ -1,0 +1,132 @@
+body {
+    background-color: #FFEEAD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navigatie ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #96CEB4;
+}
+
+.navigatie li {
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    border-left: 2px solid #A02334;
+    border-right: 1px solid #A02334;
+    background-color: #FFAD60;
+    color: #A02334;
+}
+
+.navigatie li:hover {
+    background-color: #FFEEAD;
+    border-style: none;
+    color: #FFAD60;
+}
+
+.navigatie h1 {
+    color: #A02334;
+    font-family: Arial, sans-serif;
+    text-align: center; 
+}
+
+p.text {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #A02334;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    max-width: auto;
+    background-color: #96CEB4;
+    text-align: center; 
+}
+
+.image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    display: block;   
+    margin: 0 auto;   
+}
+
+header{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #A02334;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    max-width: auto;
+    background-color: #96CEB4;
+    text-align: center; 
+    padding: 5px;
+}
+footer {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #A02334;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    max-width: auto;
+    background-color: #96CEB4;
+    text-align: center; 
+    padding: 5px;
+}
+
+.werkervaring-section {
+    font-family: Arial, sans-serif;
+    color: #A02334;
+    background-color: #96CEB4;
+}
+
+.werkervaring-section h1,
+.werkervaring-section h3,
+.werkervaring-section h4,
+.werkervaring-section li {
+    color: #A02334;
+    text-align: center;
+    background-color: #96CEB4;
+}
+
+form {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #A02334;
+    text-align: center; 
+}
+
+input[type="text"], input[type="email"], textarea, button {
+    display: block;
+    margin: 15px auto; 
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px #A02334;
+}
+
+textarea {
+    height: 100px;
+    padding: 5px 4px;
+}
+
+button:active {
+    background-color: #FFAD60;
+    color: #A02334;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px blue;
+}
